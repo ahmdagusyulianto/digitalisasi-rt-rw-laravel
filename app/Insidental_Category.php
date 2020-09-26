@@ -5,10 +5,10 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Sdm_Category extends Model
+class Insidental_Category extends Model
 {
     use SoftDeletes;
-    protected $table = "sdm_category";
+    protected $table = "ins_category";
     protected $dates = [
         'created_at',
         'updated_at',

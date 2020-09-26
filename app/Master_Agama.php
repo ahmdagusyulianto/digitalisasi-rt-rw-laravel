@@ -5,10 +5,10 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Sdm_Category extends Model
+class Master_agama extends Model
 {
-    use SoftDeletes;
-    protected $table = "sdm_category";
+    // use SoftDeletes;
+    protected $table = "religion";
     protected $dates = [
         'created_at',
         'updated_at',
@@ -16,7 +16,7 @@ class Sdm_Category extends Model
     ];
 
     protected $fillable = [
-        'category_name',
+        'religion_name',
         'created_at',
         'updated_at',
         'deleted_at',
